@@ -1,0 +1,331 @@
+*{
+  box-sizing: border-box;
+  /*outline: 1px solid rgba(0, 0 ,255, .1);*/
+  font-family: 'PT Sans'
+  color: #0B1942;
+}
+
+img {
+  display: block;
+  width: 100%;
+}
+
+a {
+  text-decoration: none;
+  /*color: #1E8BC3;*/
+}
+
+.nav-list{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-start;
+  width: 100%;
+  border-style: none;
+  border-collapse: collapse;
+  list-style-type: none;
+  border: 0px;
+  text-decoration: none;
+  font-family: 'PT Sans';
+  color: #FFFFFF;
+
+}
+
+.nav-list td{
+  /*width: 15vh;*/
+  text-align: center;
+  color: #FFFFFF;
+  height: 16vh;
+  width: 10vw;
+
+}
+
+.nav-list a{
+  color: #FFFFFF;
+}
+
+.nav{
+  border-style: none;
+  border-collapse: collapse;
+  background-color: #7DDFE8;
+  color: #FFFFFF;
+  height: 16vh;
+  width: 99vw;
+
+}
+
+.Home{
+  background-color: #00A5BF;
+  color: #FFFFFF;
+  /*width: 25%;*/
+
+}
+
+.calendar{
+  background-color: #00B7D3;
+  color: #FFFFFF;
+  /*width: 25%;*/
+}
+
+.Join{
+  background-color: #00D5E7;
+  color: #FFFFFF;
+  /*width: 25%;*/
+
+}
+
+.top-logo{
+
+}
+
+.logo{
+  /*padding: 2vh 2vh;*/
+  padding-left: 2vh;
+  padding-right: 0;
+  background-color: #F5005B;
+  /*width: 15vh;*/
+  align-items: center;
+  /*background-image: url("images/filmclub.png");*/
+  /*background-position: center;*/
+  /*background-size: contain;*/
+  /*width: 25%;*/
+}
+
+.logo-img{
+  width: 6vw;
+}
+
+.logo-img-img{
+  width: 11vh;
+  height: 11vh;
+}
+
+.top-columns{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-align: left;
+  width: 100%;
+  padding: 10px 10px;
+}
+
+.col-head{
+  width: 30%;
+  text-align: left;
+}
+
+.top-content{
+  display:flex;
+  flex-direction: row;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 10px 10px;
+
+}
+
+.join-file{
+  width: 30%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 10px;
+
+}
+
+.join-input-label{
+  width: 100%;
+}
+
+.profile-picture{
+  width=100%;
+}
+
+.profile-img{
+  height: 100%;
+  width: 100%;
+}
+
+.join-contacts-container{
+  width: 69%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  padding: 10px 10px;
+
+}
+
+.join-name-container{
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 10px;
+
+}
+
+.join-password-container{
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 10px;
+
+}
+
+.join-email-container{
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 10px;
+
+}
+
+.join-confirm-container{
+  width: 49%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 10px 10px;
+
+}
+
+.joinfilmclub{
+  padding-left: 10px;
+  font-weight: normal;
+}
+
+
+.join-name{
+  width: 100%;
+}
+
+.joinpassword{
+  width: 100%;
+
+}
+
+.join-email{
+  width: 100%;
+
+}
+
+.join-confirm{
+  width: 100%;
+
+}
+
+.profile-pic{
+  width: 100%;
+  /*font-family: 'PT Sans';*/
+  font-size: 18px;
+}
+
+.join-inputs{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  /*font-family: 'PT Sans';*/
+  font-size: 18px;
+}
+
+.join-genres-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+  font-family: 'PT Sans';
+}
+
+/*.genre-container{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  width: 100%;
+}
+
+.genre-label{
+  width: 30%;
+}*/
+
+.col-content{
+  width: 30%;
+  text-align: left;
+}
+
+.col-head{
+  width: 30vh;
+  padding: 5px 10px;
+}
+
+.month{
+  background-color: #0B1942;
+  color: #FFFFFF;
+  padding-left: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.calendar-table{
+  width: 97vw;
+  margin: 10px 10px;
+  margin-right: 20px;
+  border: 1px solid;
+  border-collapse: collapse;
+  border-color: #0B1942;
+
+}
+
+.calendar-table td{
+  background-color: #FFFFFF;
+  height: 20vh;
+  align-items: left;
+  vertical-align: top;
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: #0B1942;
+  top: 0px;
+  left: 0px;
+}
+
+.calendar-table div{
+  left: 0px;
+  top: 0px;
+}
+
+.blank-box{
+  background-color: #0B1942;
+}
+
+.calendar-day{
+  background-color: #0B1942;
+  color: #FFFFFF;
+  padding-top: 1vh;
+  padding-bottom: 1vh;
+  width: 15%;
+  text-align: center;
+  border: 2px solid;
+  border-collapse: collapse;
+  border-color: #0B1942;
+  top: 0px;
+  left: 0px;
+}
+
+.copyright{
+  text-align: right;
+  align-content: right;
+  align-items: right;
+  width: 50%;
+}
+
+.copyright p{
+  text-align: right;
+}
